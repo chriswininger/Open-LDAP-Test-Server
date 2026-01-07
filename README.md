@@ -11,6 +11,7 @@ run: `start-open-ldap.sh`
 
 * The password for both customuser and chris is "password"
 * For admin the password is adminpassword
+* All other users have the password: password
 * Admin DN: `cn=admin,dc=example,dc=org`
 * Using osixia/openldap Docker image
 
