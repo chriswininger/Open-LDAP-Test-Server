@@ -1,0 +1,18 @@
+version: 1
+
+#!RESULT OK
+#!CONNECTION ldap://localhost:1389
+#!DATE 2023-06-01T13:19:15.132
+dn: cn=chris,ou=users,dc=example,dc=org
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: chris
+gidNumber: 1000
+homeDirectory: /home/customuser
+sn: Bar1
+uid: chris
+uidNumber: 1000
+mail: chris@sonatype.com
+userPassword:: Y3VzdG9tcGFzc3dvcmQ=
+

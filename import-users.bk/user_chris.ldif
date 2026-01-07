@@ -1,0 +1,15 @@
+version: 1
+
+dn: cn=chris,ou=users,dc=example,dc=org
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: chris
+gidNumber: 1000
+homeDirectory: /home/customuser
+sn: Bar1
+uid: chris
+uidNumber: 1000
+mail: chris@sonatype.com
+userPassword:: Y3VzdG9tcGFzc3dvcmQ=
+

@@ -9,8 +9,10 @@ run: `start-open-ldap.sh`
 
 ## Notes:
 
-* The passsword for both customuser and chris is "password"
+* The password for both customuser and chris is "password"
 * For admin the password is adminpassword
+* Admin DN: `cn=admin,dc=example,dc=org`
+* Using osixia/openldap Docker image
 
 ## UI To Mange LDAP
 

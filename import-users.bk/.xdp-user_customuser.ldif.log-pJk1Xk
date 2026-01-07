@@ -1,0 +1,19 @@
+version: 1
+
+#!RESULT OK
+#!CONNECTION ldap://localhost:1389
+#!DATE 2023-06-01T13:19:34.918
+dn: cn=customuser,ou=users,dc=example,dc=org
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: customuser
+cn: User1
+gidNumber: 1000
+homeDirectory: /home/customuser
+sn: Bar1
+uid: customuser
+uidNumber: 1000
+mail: customer@sonatype.com
+userPassword:: Y3VzdG9tcGFzc3dvcmQ=
+
